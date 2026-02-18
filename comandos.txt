@@ -1,5 +1,8 @@
-git init
-git commit -m
-git add
-git diff
-git log
+git init - Inicia o git dentro do repositório adicionando a pasta oculta “.git”
+git commit -m “Mensagem do Commit” - Realiza o commit (versionamento) do(s)
+arquivo(s) que estão no staging area
+git add nome-do-arquivo - Adiciona o arquivo para “staging area”, local onde os arquivos
+ficam para serem versionados (commits)
+git diff - Mostra as diferenças do conteúdo do arquivo atual em comparação com o último
+commit
+git log - Mostra o histórico de commits realizados no repositório
